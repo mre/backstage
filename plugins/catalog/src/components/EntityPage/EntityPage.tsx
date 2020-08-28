@@ -23,7 +23,6 @@ import {
   Page,
   pageTheme,
   PageTheme,
-  Progress,
   useApi,
   HeaderTabs,
 } from '@backstage/core';
@@ -39,6 +38,7 @@ import { EntityPageApi } from '../EntityPageApi/EntityPageApi';
 import { EntityPageOverview } from '../EntityPageOverview/EntityPageOverview';
 import { FavouriteEntity } from '../FavouriteEntity/FavouriteEntity';
 import { UnregisterEntityDialog } from '../UnregisterEntityDialog/UnregisterEntityDialog';
+import { Progress } from '@backstage/components';
 
 const REDIRECT_DELAY = 1000;
 function headerProps(

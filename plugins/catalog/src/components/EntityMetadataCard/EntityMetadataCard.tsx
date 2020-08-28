@@ -15,8 +15,9 @@
  */
 
 import { Entity } from '@backstage/catalog-model';
-import { InfoCard, StructuredMetadataTable } from '@backstage/core';
+import { InfoCard } from '@backstage/core';
 import React, { FC } from 'react';
+import { StructuredMetadataTable } from '@backstage/components';
 
 type Props = {
   entity: Entity;
